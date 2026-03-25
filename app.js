@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'Here you gooooo! version2',
+    message: 'Here you gooooo! CI/CD pipeline deployement🚨',
   });
 });
 
